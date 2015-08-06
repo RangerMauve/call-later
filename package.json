@@ -1,0 +1,30 @@
+{
+  "name": "call-later",
+  "version": "1.0.0",
+  "description": "Buffer calls to a function until the next tick and get all arguments at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/call-later.git"
+  },
+  "keywords": [
+    "call",
+    "later",
+    "defer",
+    "async",
+    "tick"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/call-later/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/call-later#readme",
+  "dependencies": {
+    "asap": "^2.0.3",
+    "to-array": "^0.1.4"
+  }
+}
